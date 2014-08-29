@@ -37,6 +37,16 @@ body.admin-bar .navbar {
 p {
   font-size: inherit;
 }
+.header {
+  /*.navbar-collapse {
+		background-color: @black;
+		z-index: 1000; 
+	}*/
+}
+.navbar-collapse {
+  background-color: #f8f8f8;
+  z-index: 1000;
+}
 .post-content p {
   margin-bottom: 20px;
 }

@@ -3,7 +3,6 @@
 <div class="container">
       
 <?php if(have_posts()) : ?>
-	<h1>News</h1>
 <?php while(have_posts()) : the_post(); ?>
 
 

@@ -37,8 +37,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @white: #ffffff;
 @black: #333333;
-
-
+@dark-gray: #666666;
+@gray: #999999;
+@white-smoke: #f8f8f8;
 
 body {
 	.source-sans-pro;
@@ -60,7 +61,15 @@ p {
 	font-size: inherit;
 }
 .header {
-	
+	/*.navbar-collapse {
+		background-color: @black;
+		z-index: 1000; 
+	}*/
+}
+.navbar-collapse {
+	background-color: @white-smoke;
+	//border-bottom: 1px solid @gray !important;
+	z-index: 1000; 
 }
 .post-content {
 	p {

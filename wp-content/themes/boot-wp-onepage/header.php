@@ -18,8 +18,17 @@
   </head>
   <body <?php body_class(); ?>>
     
-<!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 header">
+            <h1 class="site-title text-center"><a href="/"><?php bloginfo('name'); ?></a></h1>
+          </div>
+       </div>
+    </div>
+
+    
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,7 +37,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><?php bloginfo('name'); ?></a>
         </div>
         <div class="navbar-collapse collapse">
           <?php
@@ -46,7 +54,7 @@
                               'before'          => '',
                               'after'           => '',
                               'link_before'     => '',
-                              'link_after'      => '',
+                              'link_after'      => '<span class="vertical-divider hidden-xs hidden-sm"><i class="fa fa-circle hidden-xs hidden-sm"></i></span>',
                               'items_wrap'      => '<ul id="%1$s" class="%2$s" style="list-style-type: none;">%3$s</ul>',
                               'depth'           => 0,
                               'walker'          => new wp_bootstrap_navwalker()
@@ -55,10 +63,6 @@
                          wp_nav_menu( $menu_1_args );
               
                ?>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/wp-admin"><i class="fa fa-cog"></i> Admin</a></li>
-            
-          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>

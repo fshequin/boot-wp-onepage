@@ -23,7 +23,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #5f5f5f;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 a {
   outline: 0;
@@ -191,6 +191,13 @@ p {
 }
 .post-content p {
   margin-bottom: 20px;
+}
+.post-content a {
+  color: #bdc5bd;
+}
+.post-content a:hover {
+  color: #5f5f5f;
+  text-decoration: none;
 }
 .footer-wrapper {
   background-color: #5f5f5f;

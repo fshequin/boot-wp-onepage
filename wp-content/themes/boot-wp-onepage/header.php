@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><?php bloginfo('name'); ?></a>
+          <a class="navbar-brand" href="/"><i class="fa fa-wordpress"></i> <?php bloginfo('name'); ?></a>
         </div>
         <div class="navbar-collapse collapse">
           <?php
@@ -38,7 +38,7 @@
                               'container'       => '',
                               'container_class' => '',
                               'container_id'    => '',
-                              'menu_class'      => 'nav navbar-nav',
+                              'menu_class'      => 'nav navbar-nav navbar-right',
                               'menu_id'         => '',
                               'echo'            => true,
                               'fallback_cb'     => 'wp_page_menu',

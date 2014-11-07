@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container single-container">
       
 <?php if(have_posts()) : ?>
 	<h1><a href="/news/">News</a></h1>

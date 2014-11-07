@@ -2,7 +2,7 @@
 <html>
 <?php wp_head(); ?>
   <head>
-    <title>Site Title</title>
+    <title><?php wp_title(); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
@@ -16,19 +16,9 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body <?php body_class(); ?>>
-    
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12 header">
-            <h1 class="site-title text-center"><a href="/"><?php bloginfo('name'); ?></a></h1>
-          </div>
-       </div>
-    </div>
-
-    
+  <body <?php body_class(); ?>> 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -37,6 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand" href="/"><?php bloginfo('name'); ?></a>
         </div>
         <div class="navbar-collapse collapse">
           <?php
@@ -54,7 +45,7 @@
                               'before'          => '',
                               'after'           => '',
                               'link_before'     => '',
-                              'link_after'      => '<span class="vertical-divider hidden-xs hidden-sm"><i class="fa fa-circle hidden-xs hidden-sm"></i></span>',
+                              'link_after'      => '<span class="vertical-divider hidden-xs"></span>',
                               'items_wrap'      => '<ul id="%1$s" class="%2$s" style="list-style-type: none;">%3$s</ul>',
                               'depth'           => 0,
                               'walker'          => new wp_bootstrap_navwalker()

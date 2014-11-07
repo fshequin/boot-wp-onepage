@@ -189,6 +189,12 @@ p {
 .single-container {
   margin-bottom: 60px;
 }
+.single-container a {
+  color: #bdc5bd;
+}
+.single-container a:hover {
+  color: #5f5f5f;
+}
 .post-content p {
   margin-bottom: 20px;
 }

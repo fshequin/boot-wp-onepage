@@ -21,16 +21,16 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 } else {
 
 /** The name of the database for WordPress */
-define('DB_NAME', 'boot-wp');
+define('DB_NAME', '625570_onepage');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', '625570_onepage');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Fred1078$');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql51-085.wc1.dfw1.stabletransit.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

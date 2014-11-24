@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+/*
+Theme Name: Boot WP Onepage
+Theme URI: http://btcny.com
+Author: Fred Shequine
+Author URI: http://btcny.com
+Description: Custom theme for the Boot WP Onepage project.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: btc
+Text Domain: btc
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* Fonts */
+.source-sans-pro {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* Colors: */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #5f5f5f;
+  padding-top: 60px;
+}
+a {
+  outline: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a :hover {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  font-size: inherit;
+}
+.container-home-clients {
+  padding-bottom: 20px;
+}
+.header .site-title {
+  font-weight: 700;
+  font-size: 55px;
+  padding: 40px 0;
+}
+.header .site-title a {
+  color: #5f5f5f;
+  text-shadow: -5px 4px 0px #d3d3d3;
+}
+.header .site-title a:hover {
+  text-decoration: none;
+}
+.navbar-default {
+  background-color: #5f5f5f;
+  font-weight: 300;
+  font-style: normal;
+}
+@media (min-width: 480px) {
+  .navbar-default {
+    /*.navbar-nav>li>a {
+			padding-top: 6px;
+			padding-bottom: 6px;
+			text-transform: uppercase;
+		}*/
+  }
+}
+.navbar-default .navbar-brand {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #cc7732;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #cc7732;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #bdc5bd;
+  background-color: #5f5f5f;
+}
+.home-hero {
+  color: #5f5f5f;
+  padding: 30px 15px 20px 15px;
+}
+.home-hero h2 {
+  font-weight: 600;
+}
+.home-hero h4 {
+  font-weight: 400;
+}
+.home-background {
+  height: 200px;
+}
+.home-background-1 {
+  background: url("images/image-one.png") repeat-x 50% 50%;
+}
+.home-background-2 {
+  background: url("images/image-two.png") repeat-x 50% 50%;
+}
+.home-background-3 {
+  background: url("images/image-one.png") repeat-x 50% 0%;
+}
+.home-background-4 {
+  background: url("images/image-two.png") repeat-x 50% 50%;
+}
+.home-content h3 {
+  font-weight: 600;
+  font-style: normal;
+}
+.home-content .content-wrapper {
+  color: #5f5f5f;
+  font-size: 22px;
+  padding: 40px 0px;
+}
+@media (min-width: 992px) {
+  .home-content .content-wrapper {
+    color: #5f5f5f;
+    font-size: 22px;
+    padding: 40px 0px;
+  }
+}
+.home-clients {
+  color: #5f5f5f;
+  padding: 20px 15px 20px 15px;
+}
+.home-clients h2 {
+  font-weight: 600;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .home-clients h2 {
+    font-weight: 600;
+    text-align: left;
+  }
+}
+.home-clients ul {
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0;
+  text-align: center;
+  list-style-type: none;
+}
+.home-clients li {
+  float: none;
+  display: block;
+  margin: 10px auto;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .home-clients ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .home-clients li {
+    float: left;
+    margin: 10px 15px;
+    padding: 0;
+  }
+}
+.home-action {
+  color: #5f5f5f;
+  min-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.home-action h2 {
+  font-weight: 600;
+}
+.news-container,
+.page-container,
+.single-container {
+  margin-bottom: 60px;
+}
+.single-container a {
+  color: #bdc5bd;
+}
+.single-container a:hover {
+  color: #5f5f5f;
+}
+.post-content p {
+  margin-bottom: 20px;
+}
+.post-content a {
+  color: #bdc5bd;
+}
+.post-content a:hover {
+  color: #5f5f5f;
+  text-decoration: none;
+}
+.footer-wrapper {
+  background-color: #5f5f5f;
+  color: #ffffff;
+}
+.footer {
+  min-height: 300px;
+  margin-top: 30px;
+}
+.footer a {
+  color: #bdc5bd;
+}
+.footer a:hover,
+.footer a:active {
+  color: #cc7732;
+}
+.footer p {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer i {
+  font-size: .75em;
+}

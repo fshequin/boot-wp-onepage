@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17756",
+"creatorBuild": "18270",
 "files": {
 	"\/bootstrap-navwalker\/wp_bootstrap_navwalker.php": {
 		"fileType": 8192,
@@ -519,79 +519,57 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/image-cavier.jpg": {
-		"fileType": 16384,
+	"\/images\/image-one-trans.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 308803,
-		"inputAbbreviatedPath": "\/images\/image-cavier.jpg",
-		"outputAbbreviatedPath": "\/images\/image-cavier.jpg",
+		"initialSize": 26213,
+		"inputAbbreviatedPath": "\/images\/image-one-trans.png",
+		"outputAbbreviatedPath": "\/images\/image-one-trans.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/image-cheese.jpg": {
-		"fileType": 16384,
+	"\/images\/image-one.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 197953,
-		"inputAbbreviatedPath": "\/images\/image-cheese.jpg",
-		"outputAbbreviatedPath": "\/images\/image-cheese.jpg",
+		"initialSize": 21953,
+		"inputAbbreviatedPath": "\/images\/image-one.png",
+		"outputAbbreviatedPath": "\/images\/image-one.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/image-clean-seas.jpg": {
-		"fileType": 16384,
+	"\/images\/image-portfolio-thumb-sample-2.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 12980,
-		"inputAbbreviatedPath": "\/images\/image-clean-seas.jpg",
-		"outputAbbreviatedPath": "\/images\/image-clean-seas.jpg",
+		"initialSize": 3692,
+		"inputAbbreviatedPath": "\/images\/image-portfolio-thumb-sample-2.png",
+		"outputAbbreviatedPath": "\/images\/image-portfolio-thumb-sample-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/image-duque.jpg": {
-		"fileType": 16384,
+	"\/images\/image-portfolio-thumb-sample.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22669,
-		"inputAbbreviatedPath": "\/images\/image-duque.jpg",
-		"outputAbbreviatedPath": "\/images\/image-duque.jpg",
+		"initialSize": 3259,
+		"inputAbbreviatedPath": "\/images\/image-portfolio-thumb-sample.png",
+		"outputAbbreviatedPath": "\/images\/image-portfolio-thumb-sample.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/image-george.jpg": {
-		"fileType": 16384,
+	"\/images\/image-two.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13130,
-		"inputAbbreviatedPath": "\/images\/image-george.jpg",
-		"outputAbbreviatedPath": "\/images\/image-george.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/image-lettuce.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 359373,
-		"inputAbbreviatedPath": "\/images\/image-lettuce.jpg",
-		"outputAbbreviatedPath": "\/images\/image-lettuce.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/image-wine.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 188017,
-		"inputAbbreviatedPath": "\/images\/image-wine.jpg",
-		"outputAbbreviatedPath": "\/images\/image-wine.jpg",
+		"initialSize": 47032,
+		"inputAbbreviatedPath": "\/images\/image-two.png",
+		"outputAbbreviatedPath": "\/images\/image-two.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1649,6 +1627,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/less\/navbar.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/navbar.less",
+		"outputAbbreviatedPath": "\/css\/navbar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/less\/navs.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -2064,6 +2062,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/screenshot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84556,
+		"inputAbbreviatedPath": "\/screenshot.png",
+		"outputAbbreviatedPath": "\/screenshot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/single.php": {
 		"fileType": 8192,
@@ -2486,6 +2495,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},

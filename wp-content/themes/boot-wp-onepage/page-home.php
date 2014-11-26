@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div id="skrollr-body">
 <div class="home-background home-background-1 text-center" style="position: fixed; z-index: -1;" data-50="background-position: 50% 48%; opacity: 1.0" data-500="background-position: 50% 30%; opacity: 0.0;">
 </div><!-- end home-background -->
 

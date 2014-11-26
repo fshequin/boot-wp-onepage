@@ -4,6 +4,10 @@ Boot-WP OnePage
 A basic Wordpress site framework w/ a onepage starter theme
 ----------------------
 
+[Demo](http://boot-wp-onepage.btcny.net/)
+
+----------------------
+
 **Includes:**
 
 1. Twitter Bootstrap 3.2.0 distribution files - css, js, glyphicons
@@ -20,3 +24,5 @@ A basic Wordpress site framework w/ a onepage starter theme
 **Notes:** 
 
 Clone this repo into any folder, then hook up the theme folder to CodeKit and your ready to Rock!
+
+[Demo](http://example.com/)

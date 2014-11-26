@@ -4,9 +4,7 @@ Boot-WP OnePage
 A basic Wordpress site framework w/ a onepage starter theme
 ----------------------
 
-[Demo](http://boot-wp-onepage.btcny.net/)
-
-----------------------
+<a href="http://boot-wp-onepage.btcny.net/" target="_blank">Demo</a>
 
 **Includes:**
 
@@ -25,4 +23,3 @@ A basic Wordpress site framework w/ a onepage starter theme
 
 Clone this repo into any folder, then hook up the theme folder to CodeKit and your ready to Rock!
 
-[Demo](http://example.com/)

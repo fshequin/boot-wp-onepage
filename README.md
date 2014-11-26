@@ -24,7 +24,8 @@ A basic Wordpress site framework w/ a onepage starter theme
 1. Fully Responsive
 2. Utilizes the <a href="https://wordpress.org/plugins/page-scroll-to-id/" target="_blank">Page scroll to id</a> WordPress plugin for vertical hash scrolling menus
 3. Utilizes <a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr</a> for scrolling animations 
-4. 
+4. Includes the following other WordPress plugins: Akismet, APC Object Cache, Debug Bar, Debug Bar Extender, Gravity Forms, Login Logo, Lorem Ipsum Button, Options Framework, Search & Replace, Wordpress SEO, Google Analytics for WordPress, WP APC Panel
+5. Options configured for social links and home page section linking to your pages of choice
 
 **Notes:** 
 

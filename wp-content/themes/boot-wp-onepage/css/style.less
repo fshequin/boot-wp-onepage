@@ -47,6 +47,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .orange {
 	color: @orange;
 }
+.section-name {
+	font-weight: 300;
+	font-size: 11px;
+	text-transform: uppercase;
+}
 body {
 	.source-sans-pro;
 	font-size: 18px;
@@ -116,13 +121,13 @@ p {
 	}
 	.navbar-nav>li>a:hover, 
 	.navbar-nav>li>a:focus {
-		color: @orange;
+		color: @orange !important;
 		background-color: transparent;
 	}
 	.navbar-nav>.active>a, 
 	.navbar-nav>.active>a:hover, 
 	.navbar-nav>.active>a:focus {
-		color: @green;
+		color: @white;
 		background-color: @dark-gray;
 	}
 	
@@ -132,11 +137,18 @@ p {
 	color: @white;
 	background: transparent;
 	padding: 30px 15px 20px 15px;
-	h2 {
-		font-weight: 600;
-	}
-	h4 {
-		font-weight: 400;
+	.home-hero-inner {
+		position: relative;
+		top: 0;
+		@media (min-width: @screen-sm-min) {
+			top: 75px; 
+		}
+		h2 {
+			font-weight: 600;
+		}
+		h4 {
+			font-weight: 400;
+		}
 	}
 }
 .home-background {

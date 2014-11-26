@@ -4,6 +4,7 @@
  * By default it uses the theme name, in lowercase and without spaces, but this can be changed if needed.
  * If the identifier changes, it'll appear as if the options have been reset.
  *
+ * to display your options in your theme: <?php echo of_get_option($id,$default); ?>
  */
 
 function optionsframework_option_name() {
@@ -105,11 +106,11 @@ function optionsframework_options() {
 		'name' => __('Basic Settings', 'options_check'),
 		'type' => 'heading');
 
-	$options[] = array(
+	/*$options[] = array(
 		'name' => __('Site Logo', 'options_check'),
 		'desc' => __('Set the header logo by uploading a file here. The file should be 572x92px', 'options_check'),
 		'id' => 'site_logo',
-		'type' => 'upload');
+		'type' => 'upload');*/
 
 	/*$options[] = array(
 		'name' => __('Input Text Mini', 'options_check'),
@@ -146,6 +147,45 @@ function optionsframework_options() {
 		'id' => 'pinterest_link',
 		'std' => '',
 		'type' => 'text');
+
+	$options[] = array(
+		'name' => __('Home Section Settings', 'options_check'),
+		'type' => 'heading');
+
+	$options[] = array(
+		'name' => __('Show Section Names with IDs', 'options_check'),
+		'desc' => __('Show the Section names with ids?. Useful for debugging...', 'options_check'),
+		'id' => 'show_section_info_checkbox',
+		'std' => '1',
+		'type' => 'checkbox');
+
+	$options[] = array(
+		'name' => __('Section One Page', 'options_check'),
+		'desc' => __('Connect Section to Page?', 'options_check'),
+		'id' => 'section_1_page',
+		'type' => 'select',
+		'options' => $options_pages);
+
+	$options[] = array(
+		'name' => __('Section Two Page', 'options_check'),
+		'desc' => __('Connect Section to Page?', 'options_check'),
+		'id' => 'section_2_page',
+		'type' => 'select',
+		'options' => $options_pages);
+
+	$options[] = array(
+		'name' => __('Section Three Page', 'options_check'),
+		'desc' => __('Connect Section to Page?', 'options_check'),
+		'id' => 'section_3_page',
+		'type' => 'select',
+		'options' => $options_pages);
+
+	$options[] = array(
+		'name' => __('Section Four Page', 'options_check'),
+		'desc' => __('Connect Section to Page?', 'options_check'),
+		'id' => 'section_4_page',
+		'type' => 'select',
+		'options' => $options_pages);
 		
 		
 	/*$options[] = array(

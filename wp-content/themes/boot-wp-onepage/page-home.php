@@ -7,23 +7,32 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 home-hero">
-					<h2 class="text-left"><?php bloginfo('name'); ?></h2>
-					<h4 class="text-left"><?php bloginfo('description'); ?> &nbsp;<span class="orange">w/ parallax</span></h4>
+					<div class="home-hero-inner">
+						<h2 class="text-left"><?php bloginfo('name'); ?></h2>
+						<h4 class="text-left"><?php bloginfo('description'); ?> &nbsp;<span class="orange">w/ parallax</span></h4>
+					</div>
 				</div>
 			</div>
 		</div><!-- end container -->
 	</div>
 
-<div class="home-content-wrapper">
+<section id="about" class="home-content-wrapper" title="about">
 	<div class="container">
 	<?php if(have_posts()) : ?>
 	<?php while(have_posts()) : the_post(); ?>
 	
 	
 		<div class="row">
-			<div class="col-md-12 home-content">
+			<div  class="col-md-12 home-content">
 				<div class="content-wrapper">
-					<?php the_content(); ?>
+					<?php if( of_get_option('show_section_info_checkbox') == '1' ) { ?>
+					<span class="section-name orange">Section One - <?php echo of_get_option('section_1_page'); ?></span>
+					<?php } ?>
+					<?php 	
+						$boot_id = intval( of_get_option('section_1_page') );
+						$section_post = get_post( $boot_id, OBJECT ); 
+						echo wpautop($section_post->post_content); 
+					?>
 				</div>
 			</div>
 		</div>
@@ -33,33 +42,30 @@
 	<?php endif; ?>
 	
 	</div><!-- end container -->
-</div>
+</section>
 
 <div class="home-background home-background-2 text-center" data-600="background-position: 0% 50%;" data-1000="background-position: 100% 50%;">
 	
 </div>
 
 
-<div class="home-clients-wrapper">
+<section id="portfolio" class="home-clients-wrapper" title="portfolio">
 	<div class="container container-home-clients">
 		<div class="row">
 			<div class="col-md-12 home-clients">
-				<h2 class="">Some of Our Clients</h2>
-				<ul class="">
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-					<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-portfolio-thumb-sample-2.png"></a></li>
-				</ul>
-				<p>&nbsp;</p>
+				<?php if( of_get_option('show_section_info_checkbox') == '1' ) { ?>
+				<span class="section-name orange">Section Two - <?php echo of_get_option('section_2_page'); ?></span>
+				<?php } ?>
+				<?php 	
+					$boot_id = intval( of_get_option('section_2_page') );
+					$section_post = get_post( $boot_id, OBJECT ); 
+					echo '<h2>'.$section_post->post_title.'</h2>'; 
+					echo wpautop($section_post->post_content); 
+				?>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <div class="home-background home-background-3 text-center">
 
@@ -79,11 +85,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 home-action">
-				<h2 class="">Give Us a Call - We Can Help!</h2>
-				<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. </p>
+				<?php if( of_get_option('show_section_info_checkbox') == '1' ) { ?>
+				<span class="section-name orange">Section Three - <?php echo of_get_option('section_3_page'); ?></span>
+				<?php } ?>
+				<?php 	
+					$boot_id = intval( of_get_option('section_3_page') );
+					$section_post = get_post( $boot_id, OBJECT ); 
+					echo '<h2>'.$section_post->post_title.'</h2>'; 
+					echo wpautop($section_post->post_content); 
+				?>
 	
 			</div>
 		</div>
@@ -104,23 +114,24 @@
 </div>
 
 
-<div class="home-contact-wrapper">
+<section id="contact" class="home-contact-wrapper" title="contact">
 	<div class="container container-home-contact">
 		<div class="row">
 			<div class="col-md-12 home-contact">
-				<h2 class="">Contact Us</h2>
-				<p>Company Name<br>
-					Street Address<br>
-					City, State, Zip
-				</p>
-				<p><a href="#">Email</a></p>
-				<p>Phone<br>Fax</p>
-				
+				<?php if( of_get_option('show_section_info_checkbox') == '1' ) { ?>
+				<span class="section-name orange">Section Four - <?php echo of_get_option('section_4_page'); ?></span>
+				<?php } ?>
+				<?php 	
+					$boot_id = intval( of_get_option('section_4_page') );
+					$section_post = get_post( $boot_id, OBJECT ); 
+					echo '<h2>'.$section_post->post_title.'</h2>'; 
+					echo wpautop($section_post->post_content); 
+				?>
 			</div>
 			
 		</div>
 		
 	</div>
 	
-</div>
+</section>
 <?php get_footer(); ?>

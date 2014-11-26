@@ -170,6 +170,14 @@ function boot_load_javascript_files() {
 
 add_action( 'wp_enqueue_scripts', 'boot_load_javascript_files' );
 
+// Bloginfo shortcode
 
+function boot_bloginfo_shortcode( $atts ) {
+   extract(shortcode_atts(array(
+       'key' => '',
+   ), $atts));
+   return get_bloginfo($key);
+}
+add_shortcode('bloginfo', 'boot_bloginfo_shortcode');
 
 

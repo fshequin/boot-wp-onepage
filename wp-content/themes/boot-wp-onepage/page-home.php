@@ -9,7 +9,7 @@
 				<div class="col-md-12 home-hero">
 					<div class="home-hero-inner">
 						<h2 class="text-left"><?php bloginfo('name'); ?></h2>
-						<h4 class="text-left"><?php bloginfo('description'); ?> &nbsp;<span class="orange">w/ parallax</span></h4>
+						<h4 class="text-left"><?php bloginfo('description'); ?> &nbsp;<span class="orange">w/parallax</span></h4>
 					</div>
 				</div>
 			</div>

@@ -4,7 +4,6 @@ Boot-WP OnePage
 A basic Wordpress site framework w/ a onepage starter theme
 ----------------------
 
-<a href="http://boot-wp-onepage.btcny.net/" target="_blank">Demo</a>
 
 **Includes:**
 
